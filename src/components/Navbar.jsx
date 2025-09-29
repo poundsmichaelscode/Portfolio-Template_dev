@@ -8,7 +8,6 @@ const links = [
   {
   id:1,
   link: "Home"
-
 }, 
 {
   id:2,
@@ -49,7 +48,7 @@ const links = [
   ))}
  </ul>
  <div onClick={() => setNav (!nav)} className='md:hidden cursor-pointer pr-4 z-10 text-gray-700'>
-  {nav ? <FaTimes size={20}/> :<FaBars size={30}/>} 
+  {nav ? <FaTimes size={20}/> : <FaBars size={30}/>} 
  </div>
 
  {nav && (
