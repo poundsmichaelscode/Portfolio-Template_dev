@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiFillCaretRight } from "react-icons/ai"
 import assets from "../assets/asset"
-
+import { Link } from 'react-scroll'
 
 
 const Home = () => {
@@ -20,10 +20,10 @@ const Home = () => {
  <p className= "text-gray py-4 max-w-md">I have two years of experience building and desinging software,
   I will love to work with Full stack using technologies like React, <br /> Tailwind Next js,Express js, mongoDb, SQL and Django python </p>
 <div>
-  <button className='group text-wihte w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-1000 to-blue-800 cursor-pointer'>
+  <Link to="Portfolio" smooth duration={500} className='group text-wihte w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-1000 to-blue-800 cursor-pointer'>
     Portfolio
     <span className='group-hover:rotate-90 duration:1000 '><AiFillCaretRight size={20} className='ml-l'/></span>
-  </button>
+  </Link>
 </div>
     </div>
     <div>
