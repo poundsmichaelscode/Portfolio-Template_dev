@@ -1,8 +1,12 @@
-import HeroImage from "../assets/IMG-20220123-WA0007-removebg (1).png"
+import HeroImage from "../assets/profile-img1-removebg-preview.png"
+import Ecommimg from "../assets/images-Ecommerce.jpg"
 
+import linuxImg from "../assets/linux-im.jpg"
 
 export const assets = {
     HeroImage,
+    Ecommimg,
+    linuxImg,
 }
 
 

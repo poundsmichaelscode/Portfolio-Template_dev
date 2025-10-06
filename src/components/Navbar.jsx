@@ -1,5 +1,6 @@
 import { useState } from "react"
 import {FaBars,FaTimes} from "react-icons/fa"
+import{Link} from "react-scroll"
 
 const Navbar = () => {
 
@@ -27,7 +28,7 @@ const links = [
 },
 {
   id:6,
-  link: "contact"
+  link: "Contact"
 },
 ]
 
@@ -35,7 +36,7 @@ const links = [
     <div className='flex justify-between items-center w-full h-20 text-white bg-black px-6'>
 
 <div>
-  <h1 className='font-mono text-2xl ml-3 cursor-pointer hover:scale-105 duration-300 '>Olayenikan Michael {}</h1>
+  <h1 className='font-mono text-2xl ml-3 cursor-pointer hover:scale-105 duration-300 '>Michael Jones {}</h1>
  </div>
     <ul className='hidden md:flex'>
 {links.map(({id, link}) => (
@@ -43,7 +44,7 @@ const links = [
   <li 
   key={id}
   className='px-4 cursor-pointer font-medium text-gray-600 hover:scale-105 duration-300'>
-    {link}
+  <Link to ={link} smooth duration={600}>{link}</Link>
     </li>
   ))}
  </ul>
@@ -62,6 +63,7 @@ const links = [
 )}
 
 </div>
+
  
 
  
