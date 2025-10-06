@@ -1,5 +1,5 @@
 # 🌐 Responsive Portfolio Website 
-link: https://vercel.com/olayenikan-michael-s-projects/olayenikan-michael
+link::   https://olayenikan-michael.vercel.app/
 
 A modern and responsive **personal portfolio website** built with **React**, **Tailwind CSS**, and **React Scroll**.  
 It includes smooth navigation, mobile responsiveness, and animated transitions — perfect for showcasing your skills, projects, and experience.
